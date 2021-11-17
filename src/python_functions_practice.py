@@ -4,16 +4,16 @@ def return_10():
 
 
 def add(n1, n2):
-    return (1+2)
+    return n1 + n2
 
 def subtract(n1, n2):
-    return (10-5)
+    return n1 - n2
 
 def multiply(n1, n2):
-    return (4*2)
+    return n1 * n2
 
 def divide(p1, p2):
-    return (10/2)
+    return p1 // p2 
 
 # def length_of_string (banana):
 #     test_string = "A string of length 21"
@@ -28,6 +28,7 @@ def length_of_string (string):
     return len(string)
 
 def join_string (string1, string2):
-    return (string1+string2)
+    return string1 + string2 
 
-
+def add_string_as_number(n1, n2):
+    return int ("1" "2")
