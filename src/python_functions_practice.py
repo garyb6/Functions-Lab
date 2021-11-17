@@ -13,7 +13,7 @@ def multiply(n1, n2):
     return n1 * n2
 
 def divide(p1, p2):
-    return p1 // p2 
+    return p1 // p2 #returns whole number. if single, would potentially become a float
 
 # def length_of_string (banana):
 #     test_string = "A string of length 21"
@@ -30,5 +30,8 @@ def length_of_string (string):
 def join_string (string1, string2):
     return string1 + string2 
 
-def add_string_as_number(n1, n2):
-    return int ("1" "2")
+def add_string_as_number(string1, string2):
+    return int (string1) + int (string2)
+
+#create one function for next 3 def number_to_full_month_name (s1):
+#extension - cube - **3 means to the power of 3
